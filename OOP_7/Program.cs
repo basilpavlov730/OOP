@@ -115,6 +115,8 @@ var taskResult = myClass.MyIntAsyncMethod(5, 6);
 // await позволяет дождаться выполнения метода и вернуть значение из данного метода
 var intResult = await taskResult;
 
+
+
 void Print()
 {
     for(int i = 0; i < 5; i++)
